@@ -53,7 +53,7 @@
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
-    "uniqCompNum": 2,
+    "uniqCompNum": 3,
     "versionPublish": "4.12.3"
   },
   "pages": {
@@ -112,7 +112,7 @@
           },
           "title": "УНИКАЛЬНЫЙ &nbsp; ТОРГОВЫЙ &nbsp;САЙТ",
           "text": "Сайт\n<br>с  характерным тоном \n<br>ориентированный на женскую моду \n<br>Мы предлагаем продукцию с высокими эксплуатационными характеристиками включая женскую одежду  ювелирные изделия  \n<br>товары для красоты и здоровья  \n<br>обувь\n<br>сумки и многое другое\n<br>Наше видение приносит счастье в жизнь\n<br>каждой женщины\n<br>\n<br>Особенности компании включают\n<br>но не ограничиваются:\n<br>\n<br>100 000+ стилей продукта и 500+ ежедневных стилей обновления\n<br>\n<br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://fas.st/LfPaLB\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ДОСТУП</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://fas.st/LfPaLB\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-user2 mbr-iconfont mbr-iconfont-btn\"></span>ДОСТУП</a>",
           "_tags": [
             "Theme"
           ],
@@ -131,20 +131,16 @@
             },
             ".btn": {
               "font-size": "20px",
-              "font-family": "'Indie Flower', cursive",
-              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower"
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px"
             }
           }
         },
         {
-          "_inherit": "social-buttons2",
+          "_inherit": "social-buttons1",
           "_styles": {
             ".mbr-section-title, .btn-social": {
               "color": "#fff"
-            },
-            ".btn-social > *": {
-              "vertical-align": "middle",
-              "padding-right": "0"
             },
             ".mbr-section-title I": {
               "font-family": "'Indie Flower', cursive",
@@ -155,21 +151,25 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#2e2e2e",
             "overlay": false,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "overlayOpacity": 0.5,
+            "facebook": true,
+            "twitter": true,
+            "google": false,
+            "vkontakte": true,
+            "odnoklassniki": true
           },
           "_tags": [
             "Theme"
           ],
-          "text": "<i>Поделись</i>&nbsp;",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"VKontakte\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-vkontakte\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Odnoklassniki\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-odnoklassniki\"></i></a> ",
-          "_name": "social-buttons4",
-          "_anchor": "social-buttons4-1"
+          "text": "<i>Поделиться</i>",
+          "_name": "social-buttons3",
+          "_anchor": "social-buttons3-2"
         }
       ]
     }
